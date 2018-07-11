@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Play this game!</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="body">
+    
+    <header>
+        <div class="container">
+           <h3><u>Instructions</u></h3>    
+            <p class="instructions">    
+                1. Click start to start playing game. <br />
+                2. Please Enter you name in the dialog box when you click on start. <br />
+                3. Once you have entered your, the time start count. <br /> 
+                4. Select any Object by clicking it from the object section. <br />
+                5. Base on selection as compared to computer's choice you can get the a point. <br />
+                6. The first person (You or Computer) to score 5 points wins the game. <br /><br />
+
+                <span><u>Note</u></span><br />
+                Tie are also tracked.
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="score-section">
+                <div class="row">
+                    <h3>Game Scores</h3>
+                </div>
+                <div class="row">
+                    <div class="player">
+                        <h4><span id="player-name">Player 1</span></h4>
+                        <h1><span id="player-score">0</span></h1>
+                    </div>
+                    <div class="vs">
+                        <h1><span id="vs">Vs</span></h1>
+                        <h4><span id="ties"><u>Ties</u></span></h4>
+                        <h1><span id="ties-count">0</span></h1>
+                    </div>
+                    <div class="computer">
+                        <h4><span id="computer-name">Computer</span></h4>
+                        <h1><span id="computer-score">0</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="select-object-section">
+                <div class="row">
+                    <h3>Select an object</h3>
+                </div>
+                <div class="row">
+                    <div class="rock">
+                        <img id="rock" src="assets/images/rock.png">   
+                    </div>
+                    <div class="paper">
+                        <img id="paper" src="assets/images/paper.png" >   
+                    </div>
+                    <div class="scissors">
+                        <img id="scissors" src="assets/images/scissors.png">   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2018, Microverse Pre-Course.
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
